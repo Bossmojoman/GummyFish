@@ -5,6 +5,7 @@ function setup() {
     
       background(color(0, 0, 255));
     // noprotect();
+    noLoop();
   }
   
   function draw() {
