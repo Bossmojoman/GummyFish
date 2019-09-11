@@ -1,6 +1,6 @@
 function setup() {
     noLoop();
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth -25, windowHeight -25);
     //noiseSeed(120000)
     
     background(color(0, 0, 255));
@@ -28,5 +28,7 @@ function setup() {
   }
 
   function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
+    noLoop();
+    background(color(0, 0, 255));
+    resizeCanvas(windowWidth - 25, windowHeight -25);
   }
