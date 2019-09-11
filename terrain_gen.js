@@ -1,11 +1,10 @@
 function setup() {
     noLoop();
-        createCanvas(window.innerWidth-100, window.innerHeight-100);
-      //noiseSeed(120000)
+    createCanvas(window.innerWidth - 25, window.innerHeight - 25);
+    //noiseSeed(120000)
     
-      background(color(0, 0, 255));
+    background(color(0, 0, 255));
     // noprotect();
-    noLoop();
   }
   
   function draw() {
