@@ -1,6 +1,6 @@
 function setup() {
     noLoop();
-        createCanvas(window.innerWidth, window.innerHeight);
+        createCanvas(window.innerWidth-100, window.innerHeight-100);
       //noiseSeed(120000)
     
       background(color(0, 0, 255));
